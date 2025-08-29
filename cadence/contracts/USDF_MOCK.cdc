@@ -230,10 +230,10 @@ access(all) contract USDF_MOCK: FungibleToken {
         self.symbol = "USDF"
         self.decimals = 6
 
-        // Set storage paths
-        self.VaultStoragePath = /storage/USDFMockVault
-        self.VaultPublicPath = /public/USDFMockVault
-        self.ReceiverPublicPath = /public/USDFMockReceiver
+        // Same paths as mainnet USDF contract for compatibility
+        self.VaultStoragePath = /storage/EVMVMBridgedToken_2aabea2058b5ac2d339b163c6ab6f2b6d53aabedVault
+        self.VaultPublicPath = /public/EVMVMBridgedToken_2aabea2058b5ac2d339b163c6ab6f2b6d53aabedVault
+        self.ReceiverPublicPath = /public/EVMVMBridgedToken_2aabea2058b5ac2d339b163c6ab6f2b6d53aabedReceiver
         self.MinterStoragePath = /storage/USDFMockMinter
 
         // Create the initial empty vault for the contract account
