@@ -123,6 +123,13 @@
 				"type": "file",
 				"location": "emulator-account.pkey"
 			}
+		},
+		"testnet-account": {
+			"address": "b7ace0a920d2c37d",
+			"key": {
+				"type": "file",
+				"location": "testnet-account.pkey"
+			}
 		}
 	},
 	"deployments": {
