@@ -137,6 +137,11 @@
 			"emulator-account": [
 				"EVMVMBridgedToken_2aabea2058b5ac2d339b163c6ab6f2b6d53aabed"
 			]
+		},
+		"testnet": {
+			"testnet-account": [
+				"EVMVMBridgedToken_2aabea2058b5ac2d339b163c6ab6f2b6d53aabed"
+			]
 		}
 	}
 }
