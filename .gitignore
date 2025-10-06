@@ -2,3 +2,4 @@
 emulator-account.pkey
 imports
 .env
+testnet-account.pkey
